@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "fortza-super-tiny: A Self-Learning Conversational AI for ESP32"
+abstract: >
+  FORTZA is a novel conversational AI architecture for microcontrollers with
+  less than 1 MB of RAM. It introduces persistent cross-turn memory (soul vector),
+  on-device self-learning (RUL), parameter-free context features (ZIA), and an
+  asymmetric encoder-decoder — all running on a $3 ESP32 chip without cloud
+  connectivity. This is the first conversational model architecture with persistent
+  memory and on-device learning to run on a microcontroller.
+authors:
+  - family-names: Pradhan
+    given-names: Dibyaprakash
+    affiliation: "Independent Research"
+version: "1.0.0"
+date-released: "2025-03-17"
+license: MIT
+repository-code: "https://github.com/RoboDIB/fortza-super-tiny-v1"
+keywords:
+  - embedded AI
+  - TinyML
+  - conversational AI
+  - on-device learning
+  - persistent memory
+  - microcontroller
+  - ESP32
+  - seq2seq
+  - LSTM
+  - soul vector
+preferred-citation:
+  type: article
+  title: >
+    FORTZA: A Soul-Vector Architecture for Persistent Conversational AI
+    on Ultra-Low-Resource Microcontrollers
+  authors:
+    - family-names: Pradhan
+      given-names: Dibyaprakash
+  year: 2025
+  journal: "arXiv preprint"
+  url: "https://github.com/RoboDIB/fortza-super-tiny-v1"

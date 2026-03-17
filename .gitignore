@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Training checkpoints (large binary files — track separately or with Git LFS)
+training/checkpoints/weights_*.npz
+training/checkpoints/weights.bin
+
+# Keep vocab.json and best weights if small enough
+# Uncomment to track them:
+# !training/checkpoints/vocab.json
+# !training/checkpoints/weights_best.npz
+
+# Training data (1+ MB — track separately or with Git LFS)
+training/data/data.txt
+
+# ESP-IDF build artifacts
+firmware/build/
+firmware/.idf_version
+firmware/dependencies.lock
+firmware/managed_components/
+sdkconfig
+sdkconfig.old
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Secrets / env
+.env
+.env.*
+secrets.py
